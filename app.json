@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.lg.airco-ir",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "compatibility": ">=10.0.0",
   "sdk": 3,
   "platforms": [
@@ -9,10 +9,32 @@
     "cloud"
   ],
   "name": {
-    "en": "LG AC Airconditioning"
+    "en": "LG AC Airconditioning",
+    "nl": "LG AC Airconditioning",
+    "da": "LG AC Aircondition",
+    "de": "LG AC Klimaanlage",
+    "es": "LG AC Aire acondicionado",
+    "fr": "LG AC Climatisation",
+    "it": "LG AC Condizionatore d'aria",
+    "no": "LG AC Klimaanlegg",
+    "sv": "LG AC Luftkonditionering",
+    "pl": "Klimatyzacja LG AC",
+    "ru": "Кондиционер LG AC",
+    "ko": "LG AC 에어컨"
   },
   "description": {
-    "en": "Control your LG HVAC system via Infrared."
+    "en": "Control your LG HVAC system via Infrared.",
+    "nl": "Bedien je LG HVAC-systeem via infrarood.",
+    "da": "Styr dit LG HVAC-system via infrarød.",
+    "de": "Steuern Sie Ihr LG HVAC-System über Infrarot.",
+    "es": "Controla tu sistema HVAC LG a través de infrarrojos.",
+    "fr": "Contrôlez votre système HVAC LG via infrarouge.",
+    "it": "Controlla il tuo sistema HVAC LG tramite infrarossi.",
+    "no": "Kontroller LG HVAC-systemet ditt via infrarød.",
+    "sv": "Styr ditt LG HVAC-system via infrarött.",
+    "pl": "Steruj swoim systemem HVAC LG za pomocą podczerwieni.",
+    "ru": "Управляйте системой HVAC LG через инфракрасный порт.",
+    "ko": "적외선을 통해 LG HVAC 시스템을 제어하십시오."
   },
   "brandColor": "#AB234A",
   "category": [
@@ -35,10 +57,32 @@
       {
         "id": "set_fan_mode",
         "title": {
-          "en": "Set fan speed"
+          "en": "Set fan speed",
+          "nl": "Stel ventilatorsnelheid in",
+          "da": "Indstil blæserhastighed",
+          "de": "Lüftergeschwindigkeit einstellen",
+          "es": "Establecer velocidad del ventilador",
+          "fr": "Définir la vitesse du ventilateur",
+          "it": "Imposta velocità ventola",
+          "no": "Sett viftehastighet",
+          "sv": "Ställ in fläkthastighet",
+          "pl": "Ustaw prędkość wentylatora",
+          "ru": "Установить скорость вентилятора",
+          "ko": "팬 속도 설정"
         },
         "titleFormatted": {
-          "en": "Set fan speed to [[speed]]"
+          "en": "Set fan speed to [[speed]]",
+          "nl": "Stel ventilatorsnelheid in op [[speed]]",
+          "da": "Indstil blæserhastighed til [[speed]]",
+          "de": "Lüftergeschwindigkeit auf [[speed]] einstellen",
+          "es": "Establecer velocidad del ventilador a [[speed]]",
+          "fr": "Définir la vitesse du ventilateur à [[speed]]",
+          "it": "Imposta velocità ventola a [[speed]]",
+          "no": "Sett viftehastighet til [[speed]]",
+          "sv": "Ställ in fläkthastighet till [[speed]]",
+          "pl": "Ustaw prędkość wentylatora na [[speed]]",
+          "ru": "Установить скорость вентилятора на [[speed]]",
+          "ko": "[[speed]] 팬 속도로 설정"
         },
         "args": [
           {
@@ -54,31 +98,86 @@
               {
                 "id": "auto",
                 "label": {
-                  "en": "Auto"
+                  "en": "Auto",
+                  "nl": "Auto",
+                  "da": "Auto",
+                  "de": "Auto",
+                  "es": "Auto",
+                  "fr": "Auto",
+                  "it": "Auto",
+                  "no": "Auto",
+                  "sv": "Auto",
+                  "pl": "Auto",
+                  "ru": "Авто",
+                  "ko": "자동"
                 }
               },
               {
                 "id": "high",
                 "label": {
-                  "en": "High"
+                  "en": "High",
+                  "nl": "Hoog",
+                  "da": "Høj",
+                  "de": "Hoch",
+                  "es": "Alto",
+                  "fr": "Élevé",
+                  "it": "Alto",
+                  "no": "Høy",
+                  "sv": "Hög",
+                  "pl": "Wysoki",
+                  "ru": "Высокий",
+                  "ko": "높음"
                 }
               },
               {
                 "id": "medium",
                 "title": {
-                  "en": "Medium"
+                  "en": "Medium",
+                  "nl": "Middel",
+                  "da": "Medium",
+                  "de": "Mittel",
+                  "es": "Medio",
+                  "fr": "Moyen",
+                  "it": "Medio",
+                  "no": "Middels",
+                  "sv": "Medium",
+                  "pl": "Średni",
+                  "ru": "Средний",
+                  "ko": "중간"
                 }
               },
               {
                 "id": "low",
                 "title": {
-                  "en": "Low"
+                  "en": "Low",
+                  "nl": "Laag",
+                  "da": "Lav",
+                  "de": "Niedrig",
+                  "es": "Bajo",
+                  "fr": "Bas",
+                  "it": "Basso",
+                  "no": "Lav",
+                  "sv": "Låg",
+                  "pl": "Niski",
+                  "ru": "Низкий",
+                  "ko": "낮음"
                 }
               },
               {
                 "id": "min",
                 "title": {
-                  "en": "Min"
+                  "en": "Min",
+                  "nl": "Min",
+                  "da": "Min",
+                  "de": "Min",
+                  "es": "Min",
+                  "fr": "Min",
+                  "it": "Min",
+                  "no": "Min",
+                  "sv": "Min",
+                  "pl": "Min",
+                  "ru": "Мин",
+                  "ko": "최소"
                 }
               }
             ]
@@ -88,10 +187,32 @@
       {
         "id": "set_operation_mode",
         "title": {
-          "en": "Set operation mode"
+          "en": "Set operation mode",
+          "nl": "Stel de modus in",
+          "da": "Indstil driftstilstand",
+          "de": "Betriebsmodus einstellen",
+          "es": "Configurar modo de operación",
+          "fr": "Définir le mode de fonctionnement",
+          "it": "Imposta modalità operativa",
+          "no": "Sett driftsmodus",
+          "sv": "Ställ in driftläge",
+          "pl": "Ustaw tryb pracy",
+          "ru": "Установить режим работы",
+          "ko": "작동 모드 설정"
         },
         "titleFormatted": {
-          "en": "Set operation mode to [[mode]]"
+          "en": "Set operation mode to [[mode]]",
+          "nl": "Stel de modus in op [[mode]]",
+          "da": "Indstil driftstilstand til [[mode]]",
+          "de": "Betriebsmodus auf [[mode]] einstellen",
+          "es": "Configurar modo de operación a [[mode]]",
+          "fr": "Définir le mode de fonctionnement sur [[mode]]",
+          "it": "Imposta la modalità operativa su [[mode]]",
+          "no": "Sett driftsmodus til [[mode]]",
+          "sv": "Ställ in driftläge till [[mode]]",
+          "pl": "Ustaw tryb pracy na [[mode]]",
+          "ru": "Установить режим работы на [[mode]]",
+          "ko": "[[mode]]로 작동 모드 설정"
         },
         "args": [
           {
@@ -107,31 +228,86 @@
               {
                 "id": "auto",
                 "label": {
-                  "en": "Auto"
+                  "en": "Auto",
+                  "nl": "Auto",
+                  "da": "Auto",
+                  "de": "Auto",
+                  "es": "Auto",
+                  "fr": "Auto",
+                  "it": "Auto",
+                  "no": "Auto",
+                  "sv": "Auto",
+                  "pl": "Auto",
+                  "ru": "Авто",
+                  "ko": "자동"
                 }
               },
               {
                 "id": "cool",
                 "label": {
-                  "en": "Cool"
+                  "en": "Cool",
+                  "nl": "Koel",
+                  "da": "Køl",
+                  "de": "Kühlen",
+                  "es": "Fresco",
+                  "fr": "Frais",
+                  "it": "Fresco",
+                  "no": "Kjølig",
+                  "sv": "Sval",
+                  "pl": "Chłodzić",
+                  "ru": "Прохладно",
+                  "ko": "시원한"
                 }
               },
               {
                 "id": "heat",
                 "label": {
-                  "en": "Heat"
+                  "en": "Heat",
+                  "nl": "Verwarm",
+                  "da": "Varme",
+                  "de": "Heizen",
+                  "es": "Calentar",
+                  "fr": "Chauffer",
+                  "it": "Riscaldare",
+                  "no": "Varm",
+                  "sv": "Värma",
+                  "pl": "Ogrzać",
+                  "ru": "Тепло",
+                  "ko": "따뜻한"
                 }
               },
               {
                 "id": "dry",
                 "title": {
-                  "en": "Dry"
+                  "en": "Dry",
+                  "nl": "Droog",
+                  "da": "Tør",
+                  "de": "Trocken",
+                  "es": "Seco",
+                  "fr": "Sec",
+                  "it": "Asciutto",
+                  "no": "Tørr",
+                  "sv": "Torr",
+                  "pl": "Suchy",
+                  "ru": "Сухо",
+                  "ko": "건조한"
                 }
               },
               {
                 "id": "fan",
                 "title": {
-                  "en": "Fan"
+                  "en": "Fan",
+                  "nl": "Ventilator",
+                  "da": "Fan",
+                  "de": "Lüfter",
+                  "es": "Ventilador",
+                  "fr": "Ventilateur",
+                  "it": "Ventilatore",
+                  "no": "Vifte",
+                  "sv": "Fläkt",
+                  "pl": "Wentylator",
+                  "ru": "Вентилятор",
+                  "ko": "팬"
                 }
               }
             ]
@@ -141,10 +317,32 @@
       {
         "id": "set_swingv_mode",
         "title": {
-          "en": "Set vertical swing"
+          "en": "Set vertical swing",
+          "nl": "Stel verticale swing in",
+          "da": "Indstil vertikal sving",
+          "de": "Vertikalen Schwenk einstellen",
+          "es": "Establecer oscilación vertical",
+          "fr": "Définir le mouvement vertical",
+          "it": "Imposta oscillazione verticale",
+          "no": "Sett vertikal sving",
+          "sv": "Ställ in vertikal svängning",
+          "pl": "Ustaw pionowy ruch",
+          "ru": "Установить вертикальное покачивание",
+          "ko": "수직 스윙 설정"
         },
         "titleFormatted": {
-          "en": "Set vertical swing to [[swingVMode]]"
+          "en": "Set vertical swing to [[swingVMode]]",
+          "nl": "Stel verticale swing in op [[swingVMode]]",
+          "da": "Indstil vertikal sving til [[swingVMode]]",
+          "de": "Vertikalen Schwenk auf [[swingVMode]] einstellen",
+          "es": "Establecer oscilación vertical a [[swingVMode]]",
+          "fr": "Définir le mouvement vertical sur [[swingVMode]]",
+          "it": "Imposta oscillazione verticale su [[swingVMode]]",
+          "no": "Sett vertikal sving til [[swingVMode]]",
+          "sv": "Ställ in vertikal svängning till [[swingVMode]]",
+          "pl": "Ustaw pionowy ruch na [[swingVMode]]",
+          "ru": "Установить вертикальное покачивание на [[swingVMode]]",
+          "ko": "[[swingVMode]]로 수직 스윙 설정"
         },
         "args": [
           {
@@ -160,49 +358,137 @@
               {
                 "id": "auto",
                 "label": {
-                  "en": "Auto"
+                  "en": "Auto",
+                  "nl": "Auto",
+                  "da": "Auto",
+                  "de": "Auto",
+                  "es": "Automático",
+                  "fr": "Auto",
+                  "it": "Auto",
+                  "no": "Auto",
+                  "sv": "Auto",
+                  "pl": "Auto",
+                  "ru": "Авто",
+                  "ko": "자동"
                 }
               },
               {
                 "id": "highest",
                 "label": {
-                  "en": "Highest"
+                  "en": "Highest",
+                  "nl": "Hoogste",
+                  "da": "Højeste",
+                  "de": "Höchste",
+                  "es": "Más alto",
+                  "fr": "Le plus haut",
+                  "it": "Massimo",
+                  "no": "Høyeste",
+                  "sv": "Högsta",
+                  "pl": "Najwyższy",
+                  "ru": "Наивысший",
+                  "ko": "최고"
                 }
               },
               {
                 "id": "high",
                 "label": {
-                  "en": "High"
+                  "en": "High",
+                  "nl": "Hoog",
+                  "da": "Høj",
+                  "de": "Hoch",
+                  "es": "Alta",
+                  "fr": "Haut",
+                  "it": "Alto",
+                  "no": "Høy",
+                  "sv": "Hög",
+                  "pl": "Wysoki",
+                  "ru": "Высокий",
+                  "ko": "높음"
                 }
               },
               {
                 "id": "upperMiddle",
                 "title": {
-                  "en": "Upper Middle"
+                  "en": "Upper Middle",
+                  "nl": "Boven Midden",
+                  "da": "Øvre Midt",
+                  "de": "Oberes Mitte",
+                  "es": "Medio superior",
+                  "fr": "Milieu Supérieur",
+                  "it": "Centro Superiore",
+                  "no": "Øvre Midten",
+                  "sv": "Övre mitten",
+                  "pl": "Górny środek",
+                  "ru": "Верхняя середина",
+                  "ko": "윗쪽 중간"
                 }
               },
               {
                 "id": "middle",
                 "title": {
-                  "en": "Middle"
+                  "en": "Middle",
+                  "nl": "Midden",
+                  "da": "Midten",
+                  "de": "Mitte",
+                  "es": "Medio",
+                  "fr": "Milieu",
+                  "it": "Medio",
+                  "no": "Midten",
+                  "sv": "Mitten",
+                  "pl": "Środek",
+                  "ru": "Середина",
+                  "ko": "중간"
                 }
               },
               {
                 "id": "low",
                 "title": {
-                  "en": "Low"
+                  "en": "Low",
+                  "nl": "Laag",
+                  "da": "Lav",
+                  "de": "Niedrig",
+                  "es": "Bajo",
+                  "fr": "Bas",
+                  "it": "Basso",
+                  "no": "Lav",
+                  "sv": "Låg",
+                  "pl": "Niski",
+                  "ru": "Низкий",
+                  "ko": "낮음"
                 }
               },
               {
                 "id": "lowest",
                 "title": {
-                  "en": "Lowest"
+                  "en": "Lowest",
+                  "nl": "Laagste",
+                  "da": "Laveste",
+                  "de": "Niedrigste",
+                  "es": "Más bajo",
+                  "fr": "Le plus bas",
+                  "it": "Minimo",
+                  "no": "Laveste",
+                  "sv": "Lägsta",
+                  "pl": "Najniższy",
+                  "ru": "Самый низкий",
+                  "ko": "최저"
                 }
               },
               {
                 "id": "off",
                 "title": {
-                  "en": "Off"
+                  "en": "Off",
+                  "nl": "Uit",
+                  "da": "Slukket",
+                  "de": "Aus",
+                  "es": "Apagado",
+                  "fr": "Éteint",
+                  "it": "Spento",
+                  "no": "Av",
+                  "sv": "Av",
+                  "pl": "Wyłączony",
+                  "ru": "Выкл",
+                  "ko": "끄기"
                 }
               }
             ]
@@ -214,7 +500,18 @@
   "drivers": [
     {
       "name": {
-        "en": "LG A/C (type 1)"
+        "en": "LG A/C (type 1)",
+        "nl": "LG A/C (type 1)",
+        "da": "LG A/C (type 1)",
+        "de": "LG A/C (type 1)",
+        "es": "LG A/C (type 1)",
+        "fr": "LG A/C (type 1)",
+        "it": "LG A/C (type 1)",
+        "no": "LG A/C (type 1)",
+        "sv": "LG A/C (type 1)",
+        "pl": "LG A/C (type 1)",
+        "ru": "LG A/C (type 1)",
+        "ko": "LG A/C (type 1)"
       },
       "class": "thermostat",
       "capabilities": [
@@ -263,7 +560,18 @@
     },
     {
       "name": {
-        "en": "LG A/C (type 2)"
+        "en": "LG A/C (type 2)",
+        "nl": "LG A/C (type 2)",
+        "da": "LG A/C (type 2)",
+        "de": "LG A/C (type 2)",
+        "es": "LG A/C (type 2)",
+        "fr": "LG A/C (type 2)",
+        "it": "LG A/C (type 2)",
+        "no": "LG A/C (type 2)",
+        "sv": "LG A/C (type 2)",
+        "pl": "LG A/C (type 2)",
+        "ru": "LG A/C (type 2)",
+        "ko": "LG A/C (type 2)"
       },
       "class": "thermostat",
       "capabilities": [
@@ -311,7 +619,18 @@
     },
     {
       "name": {
-        "en": "LG A/C (type 3)"
+        "en": "LG A/C (type 3)",
+        "nl": "LG A/C (type 3)",
+        "da": "LG A/C (type 3)",
+        "de": "LG A/C (type 3)",
+        "es": "LG A/C (type 3)",
+        "fr": "LG A/C (type 3)",
+        "it": "LG A/C (type 3)",
+        "no": "LG A/C (type 3)",
+        "sv": "LG A/C (type 3)",
+        "pl": "LG A/C (type 3)",
+        "ru": "LG A/C (type 3)",
+        "ko": "LG A/C (type 3)"
       },
       "class": "thermostat",
       "capabilities": [
@@ -364,7 +683,18 @@
       "_note": "Standard fan speeds",
       "type": "enum",
       "title": {
-        "en": "Fan mode"
+        "en": "Fan mode",
+        "nl": "Ventilatormodus",
+        "da": "Ventilatortilstand",
+        "de": "Lüftermodus",
+        "es": "Modo ventilador",
+        "fr": "Mode ventilateur",
+        "it": "Modalità ventilatore",
+        "no": "Viftemodus",
+        "sv": "Fläktläge",
+        "pl": "Tryb wentylatora",
+        "ru": "Режим вентилятора",
+        "ko": "팬 모드"
       },
       "uiComponent": "picker",
       "getable": false,
@@ -373,31 +703,86 @@
         {
           "id": "auto",
           "title": {
-            "en": "Auto"
+            "en": "Auto",
+            "nl": "Auto",
+            "da": "Auto",
+            "de": "Auto",
+            "es": "Auto",
+            "fr": "Auto",
+            "it": "Auto",
+            "no": "Auto",
+            "sv": "Auto",
+            "pl": "Auto",
+            "ru": "Авто",
+            "ko": "자동"
           }
         },
         {
           "id": "high",
           "title": {
-            "en": "High"
+            "en": "High",
+            "nl": "Hoog",
+            "da": "Høj",
+            "de": "Hoch",
+            "es": "Alto",
+            "fr": "Haut",
+            "it": "Alto",
+            "no": "Høy",
+            "sv": "Hög",
+            "pl": "Wysoki",
+            "ru": "Высокий",
+            "ko": "높음"
           }
         },
         {
           "id": "medium",
           "title": {
-            "en": "Medium"
+            "en": "Medium",
+            "nl": "Middel",
+            "da": "Medium",
+            "de": "Mittel",
+            "es": "Medio",
+            "fr": "Moyen",
+            "it": "Medio",
+            "no": "Middels",
+            "sv": "Medel",
+            "pl": "Średni",
+            "ru": "Средний",
+            "ko": "중간"
           }
         },
         {
           "id": "low",
           "title": {
-            "en": "Low"
+            "en": "Low",
+            "nl": "Laag",
+            "da": "Lav",
+            "de": "Niedrig",
+            "es": "Bajo",
+            "fr": "Bas",
+            "it": "Basso",
+            "no": "Lav",
+            "sv": "Låg",
+            "pl": "Niski",
+            "ru": "Низкий",
+            "ko": "낮음"
           }
         },
         {
           "id": "min",
           "title": {
-            "en": "Lowest"
+            "en": "Lowest",
+            "nl": "Laagste",
+            "da": "Lavest",
+            "de": "Niedrigste",
+            "es": "Más Bajo",
+            "fr": "Plus bas",
+            "it": "Minimo",
+            "no": "Lavest",
+            "sv": "Lägst",
+            "pl": "Najniższy",
+            "ru": "Самый низкий",
+            "ko": "가장 낮음"
           }
         }
       ]
@@ -405,7 +790,18 @@
     "operation_mode": {
       "type": "enum",
       "title": {
-        "en": "Operation mode"
+        "en": "Operation mode",
+        "nl": "Modus",
+        "da": "Driftstilstand",
+        "de": "Betriebsmodus",
+        "es": "Modo de operación",
+        "fr": "Mode de fonctionnement",
+        "it": "Modalità operativa",
+        "no": "Driftsmodus",
+        "sv": "Driftläge",
+        "pl": "Tryb operacyjny",
+        "ru": "Режим работы",
+        "ko": "작동 모드"
       },
       "uiComponent": "picker",
       "getable": false,
@@ -414,31 +810,86 @@
         {
           "id": "auto",
           "title": {
-            "en": "Auto"
+            "en": "Auto",
+            "nl": "Auto",
+            "da": "Auto",
+            "de": "Auto",
+            "es": "Auto",
+            "fr": "Automatique",
+            "it": "Auto",
+            "no": "Auto",
+            "sv": "Auto",
+            "pl": "Auto",
+            "ru": "Авто",
+            "ko": "자동"
           }
         },
         {
           "id": "cool",
           "title": {
-            "en": "Cool"
+            "en": "Cool",
+            "nl": "Koelen",
+            "da": "Køl",
+            "de": "Kühlen",
+            "es": "Enfriar",
+            "fr": "Refroidir",
+            "it": "Raffreddare",
+            "no": "Kjøl",
+            "sv": "Kyla",
+            "pl": "Chłodzenie",
+            "ru": "Охлаждение",
+            "ko": "냉방"
           }
         },
         {
           "id": "heat",
           "title": {
-            "en": "Heat"
+            "en": "Heat",
+            "nl": "Verwarmen",
+            "da": "Opvarmning",
+            "de": "Heizen",
+            "es": "Calor",
+            "fr": "Chauffer",
+            "it": "Riscaldare",
+            "no": "Varme",
+            "sv": "Värme",
+            "pl": "Grzanie",
+            "ru": "Нагрев",
+            "ko": "난방"
           }
         },
         {
           "id": "dry",
           "title": {
-            "en": "Dry"
+            "en": "Dry",
+            "nl": "Drogen",
+            "da": "Tør",
+            "de": "Trocknen",
+            "es": "Secar",
+            "fr": "Sèche",
+            "it": "Secco",
+            "no": "Tørr",
+            "sv": "Torka",
+            "pl": "Suszenie",
+            "ru": "Сушить",
+            "ko": "제습"
           }
         },
         {
           "id": "fan",
           "title": {
-            "en": "Fan"
+            "en": "Fan",
+            "nl": "Ventilator",
+            "da": "Blæser",
+            "de": "Ventilator",
+            "es": "Ventilador",
+            "fr": "Ventilateur",
+            "it": "Ventilatore",
+            "no": "Vifte",
+            "sv": "Fläkt",
+            "pl": "Wentylator",
+            "ru": "Вентилятор",
+            "ko": "선풍기"
           }
         }
       ]
@@ -446,7 +897,18 @@
     "swingh_mode": {
       "type": "enum",
       "title": {
-        "en": "Swing horizontal"
+        "en": "Swing horizontal",
+        "nl": "Zwaaien horizontaal",
+        "da": "Sving horisontalt",
+        "de": "Schwingen horizontal",
+        "es": "Oscilar horizontalmente",
+        "fr": "Balancement horizontal",
+        "it": "Oscillare orizzontalmente",
+        "no": "Svinge horisontalt",
+        "sv": "Sväng horisontellt",
+        "pl": "Huśtawka pozioma",
+        "ru": "Качаться горизонтально",
+        "ko": "좌우로 움직이다"
       },
       "uiComponent": "picker",
       "getable": false,
@@ -455,55 +917,154 @@
         {
           "id": "auto",
           "title": {
-            "en": "Auto"
+            "en": "Auto",
+            "nl": "Automatisch",
+            "da": "Auto",
+            "de": "Auto",
+            "es": "Automático",
+            "fr": "Auto",
+            "it": "Auto",
+            "no": "Auto",
+            "sv": "Auto",
+            "pl": "Auto",
+            "ru": "Авто",
+            "ko": "자동"
           }
         },
         {
           "id": "leftmax",
           "title": {
-            "en": "Left Max"
+            "en": "Left Max",
+            "nl": "Links Max",
+            "da": "Venstre Maks",
+            "de": "Links Max",
+            "es": "Izquierda Máxima",
+            "fr": "Gauche Max",
+            "it": "Sinistra Massimo",
+            "no": "Venstre Maks",
+            "sv": "Vänster Max",
+            "pl": "Lewy Max",
+            "ru": "Левый Макс",
+            "ko": "최대 왼쪽"
           }
         },
         {
           "id": "left",
           "title": {
-            "en": "Left"
+            "en": "Left",
+            "nl": "Links",
+            "da": "Venstre",
+            "de": "Links",
+            "es": "Izquierda",
+            "fr": "Gauche",
+            "it": "Sinistra",
+            "no": "Venstre",
+            "sv": "Vänster",
+            "pl": "Lewo",
+            "ru": "Лево",
+            "ko": "왼쪽"
           }
         },
         {
           "id": "middle",
           "title": {
-            "en": "Middle"
+            "en": "Middle",
+            "nl": "Midden",
+            "da": "Midt",
+            "de": "Mitte",
+            "es": "Centro",
+            "fr": "Milieu",
+            "it": "Centro",
+            "no": "Midten",
+            "sv": "Mitten",
+            "pl": "Środek",
+            "ru": "Среднее",
+            "ko": "중간"
           }
         },
         {
           "id": "right",
           "title": {
-            "en": "Right"
+            "en": "Right",
+            "nl": "Rechts",
+            "da": "Højre",
+            "de": "Rechts",
+            "es": "Derecha",
+            "fr": "Droite",
+            "it": "Destra",
+            "no": "Høyre",
+            "sv": "Höger",
+            "pl": "Prawo",
+            "ru": "Право",
+            "ko": "오른쪽"
           }
         },
         {
           "id": "rightmax",
           "title": {
-            "en": "Right Max"
+            "en": "Right Max",
+            "nl": "Rechts Max",
+            "da": "Højre Maks",
+            "de": "Rechts Max",
+            "es": "Derecha Máxima",
+            "fr": "Droite Max",
+            "it": "Destra Massimo",
+            "no": "Høyre Maks",
+            "sv": "Höger Max",
+            "pl": "Prawy Max",
+            "ru": "Правый Макс",
+            "ko": "최대 오른쪽"
           }
         },
         {
           "id": "rightleft",
           "title": {
-            "en": "Right Left"
+            "en": "Right Left",
+            "nl": "Rechts Links",
+            "da": "Højre Venstre",
+            "de": "Rechts Links",
+            "es": "Derecha Izquierda",
+            "fr": "Droite Gauche",
+            "it": "Destra Sinistra",
+            "no": "Høyre Venstre",
+            "sv": "Höger Vänster",
+            "pl": "Prawo Lewo",
+            "ru": "Право Лево",
+            "ko": "오른쪽 왼쪽"
           }
         },
         {
           "id": "leftright",
           "title": {
-            "en": "Left Right"
+            "en": "Left Right",
+            "nl": "Links Rechts",
+            "da": "Venstre Højre",
+            "de": "Links Rechts",
+            "es": "Izquierda Derecha",
+            "fr": "Gauche Droite",
+            "it": "Sinistra Destra",
+            "no": "Venstre Høyre",
+            "sv": "Vänster Höger",
+            "pl": "Lewo Prawo",
+            "ru": "Лево Право",
+            "ko": "왼쪽 오른쪽"
           }
         },
         {
           "id": "off",
           "title": {
-            "en": "Off"
+            "en": "Off",
+            "nl": "Uit",
+            "da": "Slukket",
+            "de": "Aus",
+            "es": "Apagado",
+            "fr": "Éteint",
+            "it": "Spento",
+            "no": "Av",
+            "sv": "Av",
+            "pl": "Wyłącz",
+            "ru": "Выкл",
+            "ko": "꺼짐"
           }
         }
       ]
@@ -511,7 +1072,18 @@
     "swingv_mode": {
       "type": "enum",
       "title": {
-        "en": "Swing vertical"
+        "en": "Swing vertical",
+        "nl": "Verticaal zwaaien",
+        "da": "Sving lodret",
+        "de": "Vertikal schwenken",
+        "es": "Oscilación vertical",
+        "fr": "Balayage vertical",
+        "it": "Oscillazione verticale",
+        "no": "Svinge vertikalt",
+        "sv": "Sväng lodrätt",
+        "pl": "Ruch pionowy",
+        "ru": "Вертикальный режим",
+        "ko": "수직 스윙"
       },
       "uiComponent": "picker",
       "getable": false,
@@ -520,49 +1092,137 @@
         {
           "id": "auto",
           "title": {
-            "en": "Auto"
+            "en": "Auto",
+            "nl": "Auto",
+            "da": "Auto",
+            "de": "Auto",
+            "es": "Auto",
+            "fr": "Auto",
+            "it": "Auto",
+            "no": "Auto",
+            "sv": "Auto",
+            "pl": "Auto",
+            "ru": "Авто",
+            "ko": "자동"
           }
         },
         {
           "id": "highest",
           "title": {
-            "en": "Highest"
+            "en": "Highest",
+            "nl": "Hoogste",
+            "da": "Højest",
+            "de": "Höchste",
+            "es": "Más alto",
+            "fr": "Le plus haut",
+            "it": "Più alto",
+            "no": "Høyest",
+            "sv": "Högst",
+            "pl": "Najwyższy",
+            "ru": "Самый высокий",
+            "ko": "최고"
           }
         },
         {
           "id": "high",
           "title": {
-            "en": "High"
+            "en": "High",
+            "nl": "Hoog",
+            "da": "Høj",
+            "de": "Hoch",
+            "es": "Alto",
+            "fr": "Haut",
+            "it": "Alto",
+            "no": "Høy",
+            "sv": "Hög",
+            "pl": "Wysoki",
+            "ru": "Высокий",
+            "ko": "높은"
           }
         },
         {
           "id": "upperMiddle",
           "title": {
-            "en": "Upper Middle"
+            "en": "Upper Middle",
+            "nl": "Bovenmidden",
+            "da": "Øvre Midten",
+            "de": "Obere Mitte",
+            "es": "Medio superior",
+            "fr": "Partie supérieure",
+            "it": "Superiore",
+            "no": "Øvre midt",
+            "sv": "Övre mitten",
+            "pl": "Górne środkowe",
+            "ru": "Верхняя середина",
+            "ko": "상위 중간"
           }
         },
         {
           "id": "middle",
           "title": {
-            "en": "Middle"
+            "en": "Middle",
+            "nl": "Midden",
+            "da": "Midten",
+            "de": "Mitte",
+            "es": "Medio",
+            "fr": "Milieu",
+            "it": "Centro",
+            "no": "Midten",
+            "sv": "Mitten",
+            "pl": "Środek",
+            "ru": "Средний",
+            "ko": "중간"
           }
         },
         {
           "id": "low",
           "title": {
-            "en": "Low"
+            "en": "Low",
+            "nl": "Laag",
+            "da": "Lav",
+            "de": "Niedrig",
+            "es": "Bajo",
+            "fr": "Bas",
+            "it": "Basso",
+            "no": "Lav",
+            "sv": "Låg",
+            "pl": "Niski",
+            "ru": "Низкий",
+            "ko": "낮은"
           }
         },
         {
           "id": "lowest",
           "title": {
-            "en": "Lowest"
+            "en": "Lowest",
+            "nl": "Laagste",
+            "da": "Lavest",
+            "de": "Niedrigste",
+            "es": "Más bajo",
+            "fr": "Le plus bas",
+            "it": "Più basso",
+            "no": "Lavest",
+            "sv": "Lägst",
+            "pl": "Najniższy",
+            "ru": "Самый низкий",
+            "ko": "가장 낮은"
           }
         },
         {
           "id": "off",
           "title": {
-            "en": "Off"
+            "en": "Off",
+            "nl": "Uit",
+            "da": "Fra",
+            "de": "Aus",
+            "es": "Apagado",
+            "fr": "Arrêt",
+            "it": "Spento",
+            "no": "Av",
+            "sv": "Av",
+            "pl": "Wyłącz",
+            "ru": "Выкл",
+            "ko": "꺼짐"
           }
         }
       ]
